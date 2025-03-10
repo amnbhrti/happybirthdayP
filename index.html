@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="animated-text">🎉 Happy Birthday! 🎂</h1>
+        <p class="sub-text">Wishing you a sweet and joyful day!</p>
+        <img src="cake.png" alt="Birthday Cake" class="cake">  <!-- Birthday Cake Image -->
+        <button onclick="toggleMusic()">Play/Pause Music 🎵</button>
+    </div>
+
+    <!-- Floating decorations -->
+    <div id="strawberry-container"></div>
+    <div id="balloon-container"></div>
+    <div id="confetti-container"></div>
+
+    <!-- Background music -->
+    <audio id="bg-music" loop>
+        <source src="birthday_song.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
